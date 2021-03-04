@@ -1,0 +1,16 @@
+{
+  "name": "selenium-javascript",
+  "version": "1.0.0",
+  "description": "Selenium JS example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  }
+}
