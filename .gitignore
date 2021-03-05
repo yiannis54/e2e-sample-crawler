@@ -2,3 +2,4 @@ node_modules
 *.csv
 chromedriver
 geckodriver
+cypress-crawler/integration-backup/examples
