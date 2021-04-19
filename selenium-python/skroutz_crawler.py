@@ -17,7 +17,7 @@ lowestPriceSelector = '#prices li.cf.card .price .final-price > a'
 productsArray = []
 
 # Create new csv and write first line of Titles
-with open('products.csv', 'w', newline='') as csvfile:
+with open('products.csv', 'w', encoding="utf-8", newline='') as csvfile:
     spamwriter = csv.writer(csvfile)
     spamwriter.writerow(["Title", "href", "SKU", "Lower Price"])
 
